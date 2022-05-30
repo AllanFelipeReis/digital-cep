@@ -1,0 +1,23 @@
+{
+    "name": "allan/digital-cep",
+    "description": "Busca de CEP online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Reis",
+            "email": "allanreis3006@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Search": "src/"
+		},
+		"psr-4": {
+			"Allan\\DigitalCep\\": "src/"
+		}
+	}
+}
